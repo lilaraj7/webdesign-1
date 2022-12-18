@@ -1,0 +1,41 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+
+}
+.centeral-nav{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 30%;
+    position: relative;
+}
+.right-nav{
+    display: flex;
+    list-style: none;
+        justify-content: space-around;
+        position: relative;
+
+    width: 15%;
+}
+.btn-start{
+    display: flex;
+    background: #4F46BA;
+    color: #ffff;
+    height: 35px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.nav-down{
+  padding-top: 15px;
+    padding-left:10px;
+}
+.down{
+    padding-top: 15px;
+    padding-left:10px;
+    font-weight: bold;
+}
