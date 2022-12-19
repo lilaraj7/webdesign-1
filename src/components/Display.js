@@ -43,6 +43,7 @@ const Display = () => {
         <img className="wh-credit" alt="" src={white}  />
         <img className="wh-img" alt=" " src={img1} />
       </div>
+    
     </div>
   );
 };
