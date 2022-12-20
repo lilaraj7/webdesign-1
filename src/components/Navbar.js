@@ -1,34 +1,37 @@
-import React from 'react'
+import { useRef } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 import './navbar.css'
-import { IoIosArrowDown } from 'react-icons/io';
 
+function Navbar() {
+	const navRef = useRef();
 
-export const Navbar = () => {
-  return (
-    
-      <nav>
-        <div >
-          Lila Raj
-        </div>
-        <ul className='centeral-nav'>
-          <li>
-          Product<IoIosArrowDown className="down" />
+	const showNavbar = () => {
+		navRef.current.classList.toggle("responsive_nav");
+	};
 
-          </li>
-          <li>
-            Template
-           <IoIosArrowDown className='down'/>
-          </li>
-          <li className='nav-down'>Blog</li>
-          <li className='nav-down'>Pricing</li>
-        </ul>
-        <ul className='right-nav'>
-          <li className='nav-down'>
-            Singin
-          </li>
-          <li className='nav-down'><div className='btn-start'>StartFree</div></li>
-        </ul>
-      </nav>
-    
-  )
+	return (
+		<header>
+			<h3>AR Shakir</h3>
+			<nav ref={navRef}>
+				<a href="/#">Product</a>
+				<a href="/#">Template</a>
+				<a href="/#">Blog</a>
+				<a href="/#">Pricing</a>
+        <a href="/#"> Singin</a>
+        <a href="/#"><div className='btn-start'>StartFree</div></a>
+
+        
+				<button
+					className="nav-btn nav-close-btn"
+					onClick={showNavbar}>
+					<FaTimes />
+				</button>
+			</nav>
+			<button className="nav-btn" onClick={showNavbar}>
+				<FaBars />
+			</button>
+		</header>
+	);
 }
+
+export default Navbar;
