@@ -290,13 +290,14 @@ p {
 }
 .new-card-con{
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
+  padding-right: 1rem;
 
 }
 .new-card-con1{
   display: flex;
   justify-content: space-around;
+  width: 65%;
   
 }
 .new-card-con2{
@@ -477,4 +478,114 @@ justify-content: space-around;
   justify-content: center;
   border-radius: 8px;
 
+}
+@media screen and (max-width: 891px){
+  .main-con{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .cards {
+    display: flex;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    height: 350px;
+    width: 300px;
+    margin-left: 1rem;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    border: 1px solid rgba(219, 228, 233, 1);
+}
+.user-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.right-main-con {
+  display: flex;
+  flex-direction: column;
+  height: 160px;
+  width: 578px;
+  background: #c4c4c4;
+  border-radius: 12px;
+  margin-top: 5rem;
+  margin-bottom: 6rem;
+}
+
+.m-con {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem;
+  padding-right: 9rem;
+  flex-direction: column;
+}
+.m-cont-box {
+  margin-right: 3rem;
+  height: 500px;
+  width: 460px;
+  border-radius: 8px;
+  background: #DBF1FA;
+  margin-left: 7rem;
+}
+.new-card-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 1rem;
+}
+.new-card-con1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 98%;
+}
+.new-card-con2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 2rem;
+}
+.blog-box2 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.blog-box2-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 2rem;
+}
+.qna-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.qna-row2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid #CFCFCF;
+  border-radius: 8px;
+  width: 400px;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+.zimg {
+  height: 23px;
+  width: 34px;
+}
+.blue-banner-title::after {
+  content: '';
+  border-left: 1px solid black;
+  height: 126px;
+  position: absolute;
+  transform: translate(284px,-73px);
+}
+.blog-img{
+  height: 300px;
+  width: 250px;
+}
 }

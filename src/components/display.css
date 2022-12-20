@@ -80,3 +80,40 @@
     transform: translate(-155px, 5px)
 
 }
+@media screen and (max-width: 915px) {
+    .di-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+   
+}
+@media screen and (max-width: 600px) {
+    .wh-credit {
+        height: 600px;
+        transform: translate(-16px, 4px);
+    }
+    
+    .wh-img {
+        height: 500px;
+        transform: translate(-80px, 5px);
+    } 
+    .di-con{
+        display: flex;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: black;
+        transform: translate(146px, 210px);
+    }   
+}
+@media screen and (max-width: 530px){
+    .start-btn{
+        font-size: 12px;
+    }
+    .p1{
+        font-size: 12px;
+    }
+}

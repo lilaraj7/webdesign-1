@@ -226,6 +226,8 @@ proper transaction</h1>
     </div>
     
 </div>
+
+</div>
 <div className='new-card-con2'>
     <div className='new-card'>
     Merits behind on afraid or warmly
@@ -234,7 +236,6 @@ proper transaction</h1>
     Merits behind on afraid or warmly
     </div>
     
-</div>
 </div>
     </div>
 </div>
